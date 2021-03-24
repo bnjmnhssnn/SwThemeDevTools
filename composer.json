@@ -1,0 +1,29 @@
+{
+    "name": "bnjmnhssnn/sw-theme-dev-tools",
+    "description": "Additional console commands for Shopware 6 theme development",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Hosseinian",
+            "email": "info@benjamin-hosseinian.de"
+        }
+    ],
+    "require": {
+        "shopware/core": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "ThemeDevTools\\ThemeDevTools",
+        "plugin-icon": "Resources/config/plugin.png",
+        "label": {
+            "de-DE": "Konsolen Kommandos für Theme-Entwicklung",
+            "en-GB": "Console commands for theme development"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ThemeDevTools\\": "src/"
+        }
+    }
+}
